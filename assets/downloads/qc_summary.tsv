@@ -1,0 +1,10 @@
+module	expected_panels	present_panels	missing_species
+S00_cell_atlas	21	21	
+S01_clustering	21	21	
+S02_cell_composition	21	21	
+S03_pseudotime	21	21	
+S04_rna_velocity	21	21	
+S05_cell_communication	21	21	
+S06_scenic	21	21	
+S07_cell_cycle	21	20	tobacco
+S08_deconvolution	21	21	

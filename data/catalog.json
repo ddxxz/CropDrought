@@ -1,0 +1,1229 @@
+{
+  "project": "Plant Drought Virtual Cell Atlas",
+  "version": "MVP 0.1",
+  "updated": "2026-07-07",
+  "stats": {
+    "species": 21,
+    "modules": 9,
+    "panels": 189,
+    "available": 188
+  },
+  "species": [
+    {
+      "slug": "alfalfa",
+      "name": "Alfalfa",
+      "latin": "Medicago sativa",
+      "family": "Fabaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/alfalfa/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/alfalfa/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/alfalfa/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/alfalfa/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/alfalfa/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/alfalfa/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/alfalfa/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/alfalfa/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/alfalfa/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "arabidopsis",
+      "name": "Arabidopsis",
+      "latin": "Arabidopsis thaliana",
+      "family": "Brassicaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/arabidopsis/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/arabidopsis/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/arabidopsis/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/arabidopsis/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/arabidopsis/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/arabidopsis/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/arabidopsis/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/arabidopsis/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/arabidopsis/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "banana",
+      "name": "Banana",
+      "latin": "Musa acuminata",
+      "family": "Musaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/banana/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/banana/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/banana/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/banana/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/banana/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/banana/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/banana/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/banana/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/banana/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "barley",
+      "name": "Barley",
+      "latin": "Hordeum vulgare",
+      "family": "Poaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/barley/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/barley/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/barley/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/barley/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/barley/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/barley/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/barley/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/barley/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/barley/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "broccoli",
+      "name": "Broccoli",
+      "latin": "Brassica oleracea var. italica",
+      "family": "Brassicaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/broccoli/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/broccoli/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/broccoli/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/broccoli/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/broccoli/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/broccoli/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/broccoli/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/broccoli/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/broccoli/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "cabbage",
+      "name": "Cabbage",
+      "latin": "Brassica oleracea var. capitata",
+      "family": "Brassicaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/cabbage/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/cabbage/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/cabbage/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/cabbage/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/cabbage/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/cabbage/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/cabbage/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/cabbage/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/cabbage/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "cassava",
+      "name": "Cassava",
+      "latin": "Manihot esculenta",
+      "family": "Euphorbiaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/cassava/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/cassava/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/cassava/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/cassava/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/cassava/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/cassava/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/cassava/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/cassava/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/cassava/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "cotton",
+      "name": "Cotton",
+      "latin": "Gossypium hirsutum",
+      "family": "Malvaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/cotton/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/cotton/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/cotton/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/cotton/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/cotton/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/cotton/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/cotton/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/cotton/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/cotton/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "grape",
+      "name": "Grape",
+      "latin": "Vitis vinifera",
+      "family": "Vitaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/grape/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/grape/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/grape/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/grape/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/grape/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/grape/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/grape/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/grape/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/grape/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "kiwifruit",
+      "name": "Kiwifruit",
+      "latin": "Actinidia chinensis",
+      "family": "Actinidiaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/kiwifruit/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/kiwifruit/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/kiwifruit/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/kiwifruit/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/kiwifruit/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/kiwifruit/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/kiwifruit/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/kiwifruit/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/kiwifruit/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "maize",
+      "name": "Maize",
+      "latin": "Zea mays",
+      "family": "Poaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/maize/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/maize/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/maize/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/maize/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/maize/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/maize/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/maize/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/maize/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/maize/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "peanut",
+      "name": "Peanut",
+      "latin": "Arachis hypogaea",
+      "family": "Fabaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/peanut/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/peanut/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/peanut/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/peanut/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/peanut/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/peanut/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/peanut/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/peanut/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/peanut/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "potato",
+      "name": "Potato",
+      "latin": "Solanum tuberosum",
+      "family": "Solanaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/potato/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/potato/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/potato/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/potato/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/potato/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/potato/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/potato/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/potato/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/potato/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "rape",
+      "name": "Rape",
+      "latin": "Brassica napus",
+      "family": "Brassicaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/rape/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/rape/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/rape/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/rape/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/rape/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/rape/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/rape/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/rape/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/rape/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "rice",
+      "name": "Rice",
+      "latin": "Oryza sativa",
+      "family": "Poaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/rice/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/rice/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/rice/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/rice/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/rice/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/rice/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/rice/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/rice/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/rice/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "sorghum",
+      "name": "Sorghum",
+      "latin": "Sorghum bicolor",
+      "family": "Poaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/sorghum/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/sorghum/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/sorghum/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/sorghum/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/sorghum/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/sorghum/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/sorghum/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/sorghum/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/sorghum/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "soybean",
+      "name": "Soybean",
+      "latin": "Glycine max",
+      "family": "Fabaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/soybean/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/soybean/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/soybean/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/soybean/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/soybean/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/soybean/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/soybean/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/soybean/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/soybean/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "tea",
+      "name": "Tea",
+      "latin": "Camellia sinensis",
+      "family": "Theaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/tea/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/tea/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/tea/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/tea/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/tea/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/tea/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/tea/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/tea/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/tea/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "tobacco",
+      "name": "Tobacco",
+      "latin": "Nicotiana tabacum",
+      "family": "Solanaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/tobacco/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/tobacco/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/tobacco/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/tobacco/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/tobacco/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/tobacco/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/tobacco/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "missing",
+          "image": null
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/tobacco/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "tomato",
+      "name": "Tomato",
+      "latin": "Solanum lycopersicum",
+      "family": "Solanaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/tomato/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/tomato/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/tomato/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/tomato/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/tomato/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/tomato/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/tomato/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/tomato/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/tomato/S08_deconvolution.webp"
+        }
+      ]
+    },
+    {
+      "slug": "wheat",
+      "name": "Wheat",
+      "latin": "Triticum aestivum",
+      "family": "Poaceae",
+      "panels": [
+        {
+          "module": "S00_cell_atlas",
+          "status": "present",
+          "image": "assets/species/wheat/S00_cell_atlas.webp"
+        },
+        {
+          "module": "S01_clustering",
+          "status": "present",
+          "image": "assets/species/wheat/S01_clustering.webp"
+        },
+        {
+          "module": "S02_cell_composition",
+          "status": "present",
+          "image": "assets/species/wheat/S02_cell_composition.webp"
+        },
+        {
+          "module": "S03_pseudotime",
+          "status": "present",
+          "image": "assets/species/wheat/S03_pseudotime.webp"
+        },
+        {
+          "module": "S04_rna_velocity",
+          "status": "present",
+          "image": "assets/species/wheat/S04_rna_velocity.webp"
+        },
+        {
+          "module": "S05_cell_communication",
+          "status": "present",
+          "image": "assets/species/wheat/S05_cell_communication.webp"
+        },
+        {
+          "module": "S06_scenic",
+          "status": "present",
+          "image": "assets/species/wheat/S06_scenic.webp"
+        },
+        {
+          "module": "S07_cell_cycle",
+          "status": "present",
+          "image": "assets/species/wheat/S07_cell_cycle.webp"
+        },
+        {
+          "module": "S08_deconvolution",
+          "status": "present",
+          "image": "assets/species/wheat/S08_deconvolution.webp"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "key": "S00_cell_atlas",
+      "name": "Cell atlas",
+      "name_zh": "细胞图谱",
+      "description": "Clusters and curated cell-type annotations",
+      "preview": "assets/sheets/S00_cell_atlas.webp",
+      "pdf": "assets/downloads/S00_cell_atlas_all_species.pdf",
+      "present": 21,
+      "expected": 21,
+      "missing": []
+    },
+    {
+      "key": "S01_clustering",
+      "name": "Clustering",
+      "name_zh": "细胞聚类",
+      "description": "All-gene UMAP clustering at Leiden resolution 1.0",
+      "preview": "assets/sheets/S01_clustering.webp",
+      "pdf": "assets/downloads/S01_clustering_all_species.pdf",
+      "present": 21,
+      "expected": 21,
+      "missing": []
+    },
+    {
+      "key": "S02_cell_composition",
+      "name": "Cell composition",
+      "name_zh": "细胞组成",
+      "description": "Cell-type composition across samples and conditions",
+      "preview": "assets/sheets/S02_cell_composition.webp",
+      "pdf": "assets/downloads/S02_cell_composition_all_species.pdf",
+      "present": 21,
+      "expected": 21,
+      "missing": []
+    },
+    {
+      "key": "S03_pseudotime",
+      "name": "Pseudotime",
+      "name_zh": "拟时序",
+      "description": "Developmental trajectories and diffusion pseudotime",
+      "preview": "assets/sheets/S03_pseudotime.webp",
+      "pdf": "assets/downloads/S03_pseudotime_all_species.pdf",
+      "present": 21,
+      "expected": 21,
+      "missing": []
+    },
+    {
+      "key": "S04_rna_velocity",
+      "name": "RNA velocity",
+      "name_zh": "RNA 速率",
+      "description": "Dynamical velocity from real spliced and unspliced counts",
+      "preview": "assets/sheets/S04_rna_velocity.webp",
+      "pdf": "assets/downloads/S04_rna_velocity_all_species.pdf",
+      "present": 21,
+      "expected": 21,
+      "missing": []
+    },
+    {
+      "key": "S05_cell_communication",
+      "name": "Cell communication",
+      "name_zh": "细胞通讯",
+      "description": "Ligand-receptor interaction summaries",
+      "preview": "assets/sheets/S05_cell_communication.webp",
+      "pdf": "assets/downloads/S05_cell_communication_all_species.pdf",
+      "present": 21,
+      "expected": 21,
+      "missing": []
+    },
+    {
+      "key": "S06_scenic",
+      "name": "SCENIC",
+      "name_zh": "调控网络",
+      "description": "Cell-type-level regulon activity",
+      "preview": "assets/sheets/S06_scenic.webp",
+      "pdf": "assets/downloads/S06_scenic_all_species.pdf",
+      "present": 21,
+      "expected": 21,
+      "missing": []
+    },
+    {
+      "key": "S07_cell_cycle",
+      "name": "Cell cycle",
+      "name_zh": "细胞周期",
+      "description": "Plant cell-cycle state inference",
+      "preview": "assets/sheets/S07_cell_cycle.webp",
+      "pdf": "assets/downloads/S07_cell_cycle_all_species.pdf",
+      "present": 20,
+      "expected": 21,
+      "missing": [
+        "tobacco"
+      ]
+    },
+    {
+      "key": "S08_deconvolution",
+      "name": "Deconvolution",
+      "name_zh": "反卷积",
+      "description": "Bulk sample deconvolution using single-cell references",
+      "preview": "assets/sheets/S08_deconvolution.webp",
+      "pdf": "assets/downloads/S08_deconvolution_all_species.pdf",
+      "present": 21,
+      "expected": 21,
+      "missing": []
+    }
+  ]
+}
